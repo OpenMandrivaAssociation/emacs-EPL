@@ -3,7 +3,7 @@
 %define release 7mdk
 
 
-Summary: Control Emacs using Perl as an alternative to Emacs Lisp.
+Summary: Control Emacs using Perl as an alternative to Emacs Lisp
 Name: %{name}
 Version: %{version}
 Release: %{release}
