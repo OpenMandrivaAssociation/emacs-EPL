@@ -27,7 +27,7 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make PREFIX=$RPM_BUILD_ROOT/usr install
+%makeinstall_std
 (
  cd lisp
  for i in *.el; do install -D $i $RPM_BUILD_ROOT/usr/share/emacs/site-lisp/$i; done
