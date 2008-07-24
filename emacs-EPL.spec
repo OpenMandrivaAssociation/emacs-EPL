@@ -1,6 +1,6 @@
 %define version 0.7
 %define name emacs-EPL
-%define release  %mkrel 7
+%define release  %mkrel 9
 
 
 Summary: Control Emacs using Perl as an alternative to Emacs Lisp
