@@ -11,6 +11,7 @@ License: GPL
 Group: Development/Perl
 Source: http://www.cpan.org/modules/by-module/Emacs/Emacs-EPL-%{version}.tar.bz2
 Requires: emacs, perl
+BuildRequires:	make
 BuildRequires: perl-devel
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
