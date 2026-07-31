@@ -1,4 +1,4 @@
-%define version 0.7
+%define version 0.9
 %define name emacs-EPL
 %define release  11
 
@@ -21,7 +21,7 @@ EPL (Emacs Perl) lets you control Emacs and XEmacs using Perl as an alternative
 to Emacs Lisp.
 
 %prep
-%setup -n Emacs-EPL-%{version}
+%setup -n Emacs-EPL-0.7
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
